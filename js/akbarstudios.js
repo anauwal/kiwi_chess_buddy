@@ -697,16 +697,17 @@ class StockfishEngine {
         }
         if (this.selfmaster.options.text_to_speech) {
             const topMove = this.topMoves[0]; // Select the top move from the PV list
-            const msg = new SpeechSynthesisUtterance(topMove.move); // Use topMove.move for the spoken text
+            const msg = new SpeechSynthesisUtterance(translateChessCommands('Pindahkan bidak ',topMove.move.toUpperCase()));//(topMove.move); // Use topMove.move for the spoken text
             const voices = window.speechSynthesis.getVoices();
-			console.log('Jancok');
-			console.log(window.speechSynthesis.getVoices());
-            const femaleVoices = voices.filter(voice => voice.voiceURI.includes("Indonesian"));
+            const femaleVoices = voices.filter(voice => voice.voiceURI.includes("Indonesian Indonesia"));
+			msg.voice = femaleVoices[0];
+			msg.lang= 'in_ID';
             if (femaleVoices.length > 0) {
+				msg.lang= 'in_ID';
                 msg.voice = femaleVoices[0];
             }
-            msg.volume = 0.75; // Set the volume to 75%
-            msg.rate = 1;
+            msg.volume = 1; // Set the volume to 75%
+            msg.rate = 0.75;
             window.speechSynthesis.cancel(); // Stop any previous text-to-speech
             window.speechSynthesis.speak(msg);
         }                 
@@ -958,6 +959,31 @@ function InitAkbarStudios(chessboard) {
             }
         });
 }
+
+function translateChessCommands(inputString) {
+    // Map of chess commands to Indonesian translations
+    const chessCommandTranslations = {
+		'A': 'Ambon',
+		'B': 'Bandung',
+		'C': 'Cirebon',
+		'D': 'Denpasar',
+		'E': 'Enrekang',
+		'F': 'Flores',
+		'G': 'Garut',
+		'H': 'Halmahera'
+	};
+
+    // Convert the inputString to uppercase and replace chess commands
+    const modifiedString = inputString.toUpperCase().replace(/[A-H]\d/g, match => {
+        const file = chessCommandTranslations[match[0]];
+        const rank = match[1];
+        return file + rank;
+    });
+
+    return modifiedString;
+}
+
+
 function createGameHook(ctor) {
     ctor.prototype._createGame = ctor.prototype.createGame;
     ctor.prototype.createGame = function (e) {
