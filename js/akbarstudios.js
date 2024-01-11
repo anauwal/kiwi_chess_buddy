@@ -699,7 +699,9 @@ class StockfishEngine {
             const topMove = this.topMoves[0]; // Select the top move from the PV list
             const msg = new SpeechSynthesisUtterance(topMove.move); // Use topMove.move for the spoken text
             const voices = window.speechSynthesis.getVoices();
-            const femaleVoices = voices.filter(voice => voice.voiceURI.includes("Google Bahasa Indonesia"));
+			console.log('Jancok');
+			console.log(window.speechSynthesis.getVoices());
+            const femaleVoices = voices.filter(voice => voice.voiceURI.includes("Indonesian"));
             if (femaleVoices.length > 0) {
                 msg.voice = femaleVoices[0];
             }
