@@ -1,6 +1,6 @@
 # Chess Buddy by AkbarStudios 🌟
 
-![Chess Buddy](https://cdn.discordapp.com/attachments/1017565672622006303/1089946864717144094/image.png)
+![Chess Buddy](https://akbar-naufal.my.id/storage/ai_images/659f4fbcc3433.png)
 
 ## Greetings!
 Step into the realm of Chess Buddy, your fantastical sidekick for Chess.com! Elevate your game, but bear in mind, true proficiency stems from consistent practice and learning, not shortcuts.
