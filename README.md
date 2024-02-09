@@ -1,4 +1,4 @@
-# Chess Buddy by AkbarStudios 🌟
+# Chess Buddy (Kiwi Browser Extension) by AkbarStudios 🌟
 
 ![Chess Buddy](https://akbar-naufal.my.id/storage/ai_images/659f4fbcc3433.png)
 
