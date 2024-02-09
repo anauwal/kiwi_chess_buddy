@@ -2,39 +2,39 @@
 
 ![Chess Buddy](https://akbar-naufal.my.id/storage/ai_images/659f4fbcc3433.png)
 
-## Greetings!
-Step into the realm of Chess Buddy, your fantastical sidekick for Chess.com! Elevate your game, but bear in mind, true proficiency stems from consistent practice and learning, not shortcuts.
+## Welcome!
 
-## Dive In 🚀
-Embark on the adventure with these easy steps:
-- [Grab the most recent version](https://github.com/anauwal/chess_buddy/files/13896598/ChessBuddy.zip): Unpack the extension.
-- Access `chrome://extensions` or swing by the `Manage extensions` page.
-- Activate `Developer mode` at the upper right corner.
-- Give a tap to the `Load unpacked` button at the upper left corner.
-- Pick the unpacked folder (look for `manifest.json`).
-For detailed instructions, consult the [official guide](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
+Enter the world of Chess Buddy, your trusty companion for Chess.com! Enhance your gameplay, but remember, true skill comes from practice and learning, not shortcuts.
 
-## Unique Abilities 🔮
-Uncover the extraordinary abilities of AkbarStudios:
+## Let's Get Started 🚀
 
-### In-Game Marvels 🌟
-- **Depth**: Manage the engine's exploration depth for a thorough comprehension.
-- **Skill Level**: Adjust the engine's playing prowess for a challenging match.
-- **Lines**: Navigate multiple routes to triumph by specifying primary variations.
-- **Threads**: Accelerate analysis using parallel CPU threads.
+Begin your journey with these simple steps:
+- [Download the latest version](https://github.com/anauwal/chess_buddy/files/14222741/chess_buddy.zip)
+- Open Kiwi Browser and navigate to `chrome://extensions` or go to the `Manage extensions` page.
+- Click on `Import Extension` in the top menu.
+- Enjoy.
+## Unique Features 🔮
 
-### Experimental Enchantments 🧪
-- **NNUE**: Unlock the mysteries of "Efficiently Updatable Neural Network."
-- **Auto Move Time**: Strategically postpone auto moves.
-- **Mate Finder**: Hunt for the quickest checkmate from your current position.
-- **Random Best Move**: Infuse unpredictability into auto moves.
-- **Legit Auto Move**: Automate moves like an authentic player.
+Discover the amazing features by AkbarStudios:
+
+### In-Game Enhancements 🌟
+- **Depth**: Control the engine's exploration depth for better understanding.
+- **Skill Level**: Adjust the engine's difficulty for a challenging game.
+- **Variations**: Explore different paths to victory by specifying main variations.
+- **Parallel Threads**: Speed up analysis using multiple CPU threads.
+
+### Experimental Additions 🧪
+- **NNUE**: Explore the capabilities of "Efficiently Updatable Neural Network."
+- **Auto Move Time**: Strategically delay automatic moves.
+- **Mate Finder**: Seek the fastest checkmate from your current position.
+- **Random Best Move**: Add unpredictability to automatic moves.
+- **Legit Auto Move**: Automate moves like a genuine player.
 - **Show Hints**: Receive move suggestions based on analysis depth.
-- **Text-to-Speech**: Transform moves into spoken words for streaming.
-- **Move Analysis**: Obtain feedback on moves to learn from errors.
+- **Text-to-Speech**: Convert moves into spoken words for streaming.
+- **Move Analysis**: Receive feedback on moves to learn from mistakes.
 
-### Progress Monitoring 📊
-- **Depth Bar**: Observe the engine's analysis progress.
-- **Evaluation Bar**: Uncover secrets about your position.
+### Progress Tracking 📊
+- **Depth Bar**: Track the engine's analysis progress.
+- **Evaluation Bar**: Gain insights into your position.
 
-Remember, Chess Buddy amplifies your learning experience, avoiding any shortcuts to mastery. Embrace the enchantment of chess through consistent practice and dedication!
+Remember, Chess Buddy enhances your learning journey, avoiding shortcuts to mastery. Embrace the magic of chess through consistent practice and dedication!
